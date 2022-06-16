@@ -1,0 +1,26 @@
+.parent {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 15px;
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+}
+
+.c {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid black
+}
+
+.c.test-class {
+    background-color: aqua;
+}
